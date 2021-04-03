@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Todo application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="time d-flex justify-content-between aling-center">
+            <h1 class="title">Todo Application</h1>
+            <div class="time-wrapper">
+                <div class="day"></div>
+                <div class="clock"></div>
+            </div>
+        </div>
+
+        <hr>
+
+        <form class="task-form">
+            <div>
+                <label for="task">Enter your task:</label>
+                <input type="text" name="task" id="task" class="u-full-width">
+            </div>
+
+            <div>
+                <input type="submit" value="Submit" class="u-full-width">
+            </div>
+        </form>
+
+        <hr>
+
+        <div>
+            <h3>Task List:</h3>
+            <ul class="task-list list-style-none"></ul>
+        </div>
+
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>

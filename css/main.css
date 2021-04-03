@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.time-wrapper{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-content-between{
+    justify-content: space-between;
+}
+
+.aling-center{
+    align-items: center;
+}
+
+.title{
+    padding-top: 1.5rem;
+}
+
+.error, .success{
+    color: #ffffff;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+
+.error{
+    background: red;
+}
+
+.success{
+    background: green;
+}
